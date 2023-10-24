@@ -1,0 +1,69 @@
+---
+title: "Final Paper"
+format: html
+editor: visual
+---
+
+Alyssa Perez
+
+I 320D Open-Source Software Development
+
+Professor Howison
+
+October 24th, 2023
+
+agp2372
+
+**Type 1 Diabetes Open-Source Software Projects**
+
+Health related disabilities have become increasingly dependent on the integration of technology within the healthcare field, and it is apparent that these advancements have made significant changes in many people's lives. My younger brother was diagnosed with type 1 diabetes recently and I have seen first-hand how this disease has impacted his life. However, I have also seen how the use of technology in replacement for manually operated health devices has significantly improved his quality of life and has made this aspect of his daily routine easier to manage. Due to the impact that this experience has had on my life, I have grown interested in the tech health-related industry and continue to research improvements and their contributors. Through my research, I have learned that there is a whole community of people who are working together to create open-source software to aid in the battle against type 1 diabetes, it is amazing!
+
+There are a number of projects that are available to study and analyze, and in some respects, they all work towards the same goal but the way in which the contributors work together on the different projects demonstrated the differences in leadership within a project objective, or, more specifically what the end goal of an open-source project is. The three projects I will be focusing on are OpenAPs, Nightscout, and Tidepool, all of which are open-sourced projects created by contributors who have experience with this disability. OpenAPS is an artificial pancreas system created by a contributor who has type 1 diabetes herself. It was created to cater those with type 1 diabetes in a fashion that had yet to be explored by the healthcare field itself and it was created to track users blood sugar level and simultaneously distribute basal insulin depending on the need of the user. This concept combats the manual injection method that people with type 1 diabetes faced almost every day when they managed their disease. The push request communicates the same concepts as it was created to allow the primary user to manage who can view their data and when they can view it, as well as who can aid in the management of the primary user's glucose level based on the urgency of the situation.
+
+*Open APS PR, documented from OPENAPS Github: [openaps](https://github.com/openaps)*
+
+Likewise, Nightscout works in the same way, but was created for a specific target group- parents of young children with type 1 diabetes. The management of this disease during a resting period or when the patient is asleep is a crucial aspect of ensuring that the patient is safe, but it is not always easy to manage when a young child is asleep and unaware of how they feel. Nightscout was created to track a child's blood sugar trends at night to ensure that any discrepancies in a child's blood sugar levels do not go unnoticed while both the parent and child sleep. Nightscout has several push requests created by contributors that have personal insights on diabetes management. This specific push request regards quantifying the trends of neural temps and using the predictions to better manage the consistent flow of insulin during non-action hours. This specific instance discusses the features being allowed to be disabled when it seems it is not useful to the primary user or when the trends do not seem to be aligned to the user's current glucose levels.
+
+*Nightscout PR Requests, documented from Nightscout: NIGHTSCOUT Github: <https://github.com/nightscout>*
+
+![](file:////Users/alyssaperez/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.jpg)d
+
+Tidepool is similar but has its major differences when comparing to the first two projects. Tidepool was created to make the user feel in control of their disease and to create a sense of routine when it comes to allowing users to determine what affects their blood sugar and not the other way around. In short, Tidepool allows users to enter their daily exercise, create daily meal intake journals, and track their mood and highs/lows of the day based on their blood sugar levels. The premise of the project is to act as an interactive database for users who feel they need extra help managing their disease and all the exterior factors that come with it. Tidepool is a great way for users to gain back a form of sense of self-governance as users can take back control of their life from the hands of healthcare providers. The push request discussed here regards the contributor's ideology surrounding the integration of a primary users' data and the need of an urgency alert when blood glucose levels are either too high or too low. In the early stages of the development of diabetic management tools, in almost all instances, the devices needed to be connected to a wireless connection in order to work, but the push request discusses the changes to that connection when cellular data is involved.
+
+*Tidepool PR request, documented from TIDEPOOL Github: <https://github.com/tidepool-org>*
+
+These three projects use collaborative software's to work together to build projects that are innovative and able to be used through human interaction. To execute this desire, these three projects are demonstrated on the Github collaboration platform that allows for multiple contributors to add onto the preexisting work or to create new additions that are thought to be useful to users in need. All three of these open-sourced projects also try to add onto the relationship between creators and users by advertising the need for further contribution to the cause at which we are aiming towards. OpenAPS, initiated by a contributor with type 1 diabetes, addresses the need for an automated insulin delivery system, providing a more seamless and less intrusive approach to managing blood sugar levels. On the other hand, Nightscout caters to the concerns of parents caring for young children with type 1 diabetes, focusing on monitoring blood sugar levels during nighttime to ensure the child's safety and well-being. Tidepool, distinct in its approach, emphasizes empowering individuals with type 1 diabetes to take control of their health by offering a comprehensive platform to track various aspects of their daily routines and interactions that affect their blood sugar levels.
+
+The IMOI (Input-Mediator-Output-Input) framework, (Crowston et al.), serves as an appropriate lens for evaluating the progress made in this field. It enables us to dissect the literature into critical components that offer valuable insights into the world of open-source projects in health technology. The research findings are categorized into inputs, processes, emergent states, and outputs, revealing how these projects are fueled by a diverse set of member characteristics, technological influences, and project-specific attributes. The software development practices, social processes, and the engagement of firms are among the dynamic processes that drive these endeavors. The open-source philosophy of these projects inherently aligns with the FLOSS development model. It underscores the importance of inclusivity, collaboration, and the dissolution of traditional ownership and licensing barriers. In doing so, it ensures a rich diversity of contributors, ranging from healthcare professionals to those personally impacted by type 1 diabetes. This open approach not only bolsters the technical prowess of the projects but also emphasizes the end user's experience and needs, ultimately enhancing the quality of life for those facing health-related disabilities.
+
+These projects not only utilize collaborative software but also actively encourage a community of contributors. By leveraging collaborative infrastructures, these projects facilitate the pooling of diverse expertise, enabling the creation of innovative solutions and fostering a sense of collective responsibility towards the common goal of improving the lives of those affected by type 1 diabetes. Moreover, the open-source nature of these projects signifies a departure from traditional models of ownership and licensing. The inclusive, open environment welcomes contributions from a diverse range of individuals, from healthcare professionals to software developers and individuals personally impacted by type 1 diabetes. This inclusivity broadens the perspective and capabilities of the projects, enriching the end product and ensuring it is both technically proficient and user centric. When referencing the educational literature provided, we can see the incorporation of input mediator output input. This methodical approach to open-sourced software focuses on encompassing the need to incorporate both the input and output aspects of the product being developed and the specific target audience being reached.
+
+Stakeholders play a pivotal role in shaping the direction of ISD projects, (misqresearchcurations), and this holds true for the open-source initiatives examined here. Managers, including top management, IS executives, and IS managers, emerge as gatekeepers and champions of ISD, influencing decisions that can either propel or hinder the progress of projects like OpenAPS, Nightscout, and Tidepool. Meanwhile, users, as deeply vested stakeholders, navigate the terrain of ISD outputs. These articles have illuminated the intricacies of user participation, communication challenges, and the balancing act of representing users while championing customer interests within agile ISD. It is recognized that these three open-source projects represent a microcosm of a broader transformation in healthcare technology. They symbolize the potential for stakeholders, processes, and outputs to converge in a unified effort to enhance the quality of life for individuals with health-related disabilities. The lessons learned from OpenAPS, Nightscout, and Tidepool underscore the profound impact of open-source principles and the collaboration of diverse stakeholders, offering a blueprint for the future of healthcare technology.
+
+Through their commitment to the open-source philosophy and the power of collaboration, these projects have showcased the potential of technology to alleviate the burdens associated with type 1 diabetes. They exemplify how collective efforts can drive innovation, facilitate user empowerment, and ultimately enhance the quality of life for those grappling with health-related disabilities. The inspiring work of these projects serves as a testament to the transformative impact of open-source solutions in the realm of healthcare technology.
+
+Works Cited
+
+ACBRD. "Out in the OPEN: Trialing Open-Source Automated Insulin Delivery in Type 1 Diabetes." *ACBRD*, 25 Sept. 2022, acbrd.org.au/2022/09/26/out-in-the-open-trialing-open-source-automated-insulin-delivery-in-type-1-diabetes/. Accessed 24 Oct. 2023.
+
+"Added Another Self-Hosted Offer by Sspt · Pull Request #189 · Nightscout/Nightscout.github.io." *GitHub*, github.com/nightscout/nightscout.github.io/pull/189/commits/1e9d301269ef23a8387506f6fec96435e8197889. Accessed 24 Oct. 2023.
+
+Braune, Katarina, et al. "Open-Source Automated Insulin Delivery: International Consensus Statement and Practical Guidance for Health-Care Professionals." *The Lancet Diabetes & Endocrinology*, vol. 0, no. 0, 13 Nov. 2021, www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00267-9/fulltext, https://doi.org/10.1016/S2213-8587(21)00267-9. Accessed 24 Nov. 2021.
+
+Burnside, Mercedes J., et al. "Open-Source Automated Insulin Delivery in Type 1 Diabetes." *New England Journal of Medicine*, vol. 387, no. 10, 8 Sept. 2022, pp. 869--881, https://doi.org/10.1056/nejmoa2203913.
+
+Crowston, Kevin, et al. "Free/Libre Open-Source Software Development." *ACM Computing Surveys*, vol. 44, no. 2, 1 Feb. 2012, pp. 1--35, https://doi.org/10.1145/2089125.2089127.
+
+"Loops in Progress --- OpenAPS 0.0.0 Documentation." *Readthedocs.io*, 2023, openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/loops-in-progress.html. Accessed 24 Oct. 2023.
+
+misqresearchcurations. "Information Systems Development." *MIS Quarterly*, www.misqresearchcurations.org/blog/2021/12/7/information-systems-development.
+
+"New Study Shows Open-Source Automated Insulin Delivery Is a Safe and Effective Treatment Option for People with Type 1 Diabetes \| ADA." *Www2.Diabetes.org*, www2.diabetes.org/newsroom/press-releases/2022/new-study-shows-open-sourced-autmoated-insulin-delivery-safe-effective-treatment-option-type-1. Accessed 24 Oct. 2023.
+
+*OpenAPS.org -- #WeAreNotWaiting to Reduce the Burden of Type 1 Diabetes*. openaps.org/.
+
+"Pull Requests · Tidepool-Org/Development." *GitHub*, github.com/tidepool-org/development/pulls. Accessed 24 Oct. 2023.
+
+"Skip_neutral_temps Only If SMB's Somehow Disabled by Mountrcg · Pull Request #1452 · Openaps/Oref0." *GitHub*, github.com/openaps/oref0/pull/1452. Accessed 24 Oct. 2023.
+
+"Welcome to Nightscout." *The Nightscout Project*, www.nightscout.info/.
